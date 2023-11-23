@@ -1,0 +1,15 @@
+{
+  "name": "puppeteer-test",
+  "version": "1.0.0",
+  "description": "technical test to scrap a trello dashboard",
+  "main": "index.js",
+  "author": "Ivan Robles",
+  "license": "MIT",
+  "private": false,
+  "scripts":{
+	  "start":"node --env-file .env index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.5.2"
+  }
+}
